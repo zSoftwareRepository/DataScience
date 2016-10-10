@@ -13,7 +13,7 @@ files.m$X1 <- 1:nrow(files.m)
 row.names(files.m) <- NULL
 rm(files)
 
-train.sample <- sample(1:nrow(files.m),nrow(files.m)*0.1)
+train.sample <- sample(1:nrow(files.m),nrow(files.m)*0.05)
 
 train <- files.m[train.sample,]
 test  <- files.m[-train.sample,]

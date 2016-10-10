@@ -1,7 +1,7 @@
 
 library(R.matlab)
 
-path <- "input/"
+path <- "input/train_1"
 
 files <- list.files(path=path,pattern = "*.mat")
 

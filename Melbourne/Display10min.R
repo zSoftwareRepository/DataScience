@@ -3,7 +3,7 @@ library(manipulate)
 library(R.matlab)
 library(dplyr)
 library(tidyr)
- 
+
 timerange <- 800
 
 dataClass0 <- readMat("input/1_1_0.mat",sparseMatrixClass=c("Matrix"),fixNames=FALSE)
